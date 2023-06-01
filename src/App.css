@@ -1,0 +1,36 @@
+.wetherBg{
+  background: url("https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+.heading{
+  color:rgb(219, 52, 52);
+  font-weight: 700;
+}
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 60vh;
+  left: 33.5%;
+}
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity{
+  font-size: 35px;
+  color: white;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
+  color: white;
+}
